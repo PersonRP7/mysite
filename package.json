@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/PersonRP7/mysite/issues"
   },
-  "homepage": "https://github.com/PersonRP7/mysite#readme"
+  "homepage": "https://github.com/PersonRP7/mysite#readme",
+  "dependencies": {
+    "tippy.js": "^6.3.7"
+  }
 }
