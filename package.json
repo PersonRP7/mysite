@@ -1,0 +1,20 @@
+{
+  "name": "mysite1",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000y\u0000s\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "js/scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PersonRP7/mysite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PersonRP7/mysite/issues"
+  },
+  "homepage": "https://github.com/PersonRP7/mysite#readme"
+}
