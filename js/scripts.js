@@ -78,3 +78,17 @@ function fadeIn(el, display) {
         }
     })();
 };
+
+// tippy mainmast
+tippy('#tippy_about', {
+    content: 'About',
+  });
+
+tippy('#tippy_stack', {
+    content: 'Stack',
+  });
+
+tippy('#tippy_projects', {
+    content: 'Projects',
+  });
+// tippy mainmast
