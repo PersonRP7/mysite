@@ -11588,3 +11588,7 @@ footer.footer .social-link:hover {
 .zoom:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+.clapton {
+  background-color: #F2EEDD;
+}
