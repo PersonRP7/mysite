@@ -91,4 +91,8 @@ tippy('#tippy_stack', {
 tippy('#tippy_projects', {
     content: 'Projects',
   });
+
+tippy('#tippy_github', {
+    content: 'Github',
+  });
 // tippy mainmast
