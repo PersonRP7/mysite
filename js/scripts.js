@@ -91,8 +91,17 @@ tippy('#tippy_stack', {
 tippy('#tippy_projects', {
     content: 'Projects',
   });
+// tippy mainmast
 
+// tippy about
 tippy('#tippy_github', {
     content: 'Github',
   });
-// tippy mainmast
+//tippy about
+
+
+// tippy projects
+tippy('#tippy_pa', {
+    content: 'Promet Aroma',
+  });
+// tippy projects
