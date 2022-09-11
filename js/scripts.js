@@ -104,4 +104,8 @@ tippy('#tippy_github', {
 tippy('#tippy_pa', {
     content: 'Promet Aroma',
   });
+
+  tippy('#tippy_personal', {
+    content: 'Personal page',
+  });
 // tippy projects
