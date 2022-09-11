@@ -154,14 +154,42 @@
 
                 <div class="row gx-4 gx-lg-5">
 
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0" id="tippy_pa">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
 
-                        <a href="#"><button>About</button></a>
+                        <!-- <a href="#"><img class="zoom" src="assets/icons/svg/info.svg" alt="pa_info" /></a> -->
+                        <!-- <object width="25" height="25" data="assets/icons/svg/info.svg" type="image/svg+xml"></object> -->
                     
-                        <a href="https://www.prometaroma.hr"><img class="zoom" src="assets/icons/svg/projects/pa.svg" alt="pa" /></a>
-
+                        <a id="tippy_pa" href="https://www.prometaroma.hr"><img class="zoom" src="assets/icons/svg/projects/pa.svg" alt="pa" /></a>
+<!-- 
                         <p class="text-black mb-0">Croatian importer and distributer of Pellini coffee.</p>
-                        <p>Croatian importer and offical Gaggia home espresso machine service.</p>
+                        <p>Croatian importer and offical Gaggia home espresso machine service.</p> -->
+
+                        <button class="btn btn-danger me-2" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">About</button>
+                        <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="#multiCollapseExample2">Stack</button>
+
+                        <div class="row mt-2">
+
+                            <div>
+                              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card card-body">
+                                    <p class="text-black mb-2">Croatian importer and distributer of Pellini coffee.</p>
+                                    <p class="text-black mb-2">Croatian importer and offical Gaggia home espresso machine service.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div>
+                              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                    <p class="text-black mb-2">Django</p>
+                                    <p class="text-black mb-2">_htmx</p>
+                                    <p class="text-black mb-2">Bootstrap 5</p>
+                                    <p class="text-black mb-2">Stripe</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        
                     </div>
 
 
