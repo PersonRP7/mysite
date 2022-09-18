@@ -51,15 +51,21 @@
                     <div class="row">
 
                         <div class="col" id="tippy_about">
-                            <a class="mb-2" href="#about" href=""><img class="zoom" src="assets/icons/svg/about.svg" alt="" /></a>
+                            <a style="text-decoration: none;" class="mb-2" href="#about"><img class="zoom" src="assets/icons/svg/about.svg" alt="about" />
+                                <p id="header_about">About</p>
+                            </a>
                         </div>
     
                         <div class="col" id="tippy_stack">
-                            <a class="mb-2" href="#services" href=""><img class="zoom" src="assets/icons/svg/stack.svg" alt="" /></a>
+                            <a style="text-decoration: none;" class="mb-2" href="#services" href=""><img class="zoom" src="assets/icons/svg/stack.svg" alt="" />
+                                <p id="header_stack">Stack</p>
+                            </a>
                         </div>
 
                         <div class="col" id="tippy_projects">
-                            <a class="mb-2" href="#portfolio" href=""><img class="zoom" src="assets/icons/svg/projects.svg" alt="" /></a>
+                            <a style="text-decoration: none;" class="mb-2" href="#portfolio" href=""><img class="zoom" src="assets/icons/svg/projects.svg" alt="" />
+                                <p id="header_projects">Projects</p>
+                            </a>
                         </div>
 
                     </div>
@@ -266,6 +272,20 @@
 
         <style>
 
+              @media screen and (min-width: 569px) {
+                #header_about {
+                    display: none;
+                }
+
+                #header_stack {
+                    display: none;
+                }
+
+                #header_projects {
+                    display: none;
+                }
+
+            }
         </style>
 
     </body>
