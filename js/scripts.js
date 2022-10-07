@@ -108,4 +108,11 @@ tippy('#tippy_pa', {
   tippy('#tippy_personal', {
     content: 'Personal page',
   });
+
+  tippy('#tippy_myrtle', {
+    content: 'mirta-filipovic.com',
+  });
+
 // tippy projects
+
+
