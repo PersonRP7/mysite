@@ -99,6 +99,11 @@ tippy('#tippy_github', {
   });
 //tippy about
 
+// tippy cv
+tippy('#tippy_cv', {
+    content: 'CV',
+  });
+// tippy cv
 
 // tippy projects
 tippy('#tippy_pa', {
